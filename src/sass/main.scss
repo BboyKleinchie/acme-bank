@@ -1,0 +1,40 @@
+/**
+  This is where all partial sass files will be imported
+**/
+
+// 
+// ABSTRACT
+//
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/variables';
+
+// 
+// BASE
+//
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
+
+//
+// COMPONENTS
+//
+
+//
+// LAYOUT
+//
+@import 'layout/footer';
+@import 'layout/header';
+
+//
+// PAGES
+//
+
+//
+// THEMES
+//
+
+//
+// VENDORS
+//
