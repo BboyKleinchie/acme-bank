@@ -1,0 +1,11 @@
+*, // universal selector, i.e. applied to all selectors
+*::before
+*::after { 
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit; // this will inherit the parent’s value, which ultimately is the body
+}
+
+html { 
+    font-size: 62.5%; // this is to set 1rem=10px for ease of calculation, i.e. calculated as (10px/16px)*100
+} 
