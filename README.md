@@ -1,7 +1,19 @@
-# AcmeBank
+# Acme Bank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.15.
 An Angular 8 web app for a front end assessment
+
+## Prerequisites
+
+- node (i.e nodeJs version 10.9.0 or later)
+- angular cli installed globally
+
+## Setup
+- Install node (goto -> https://nodejs.org/en/download/)
+- Install angular cli globally (run command: `npm install -g @angular/cli`
+- Open angular project (or command line: cd into root of angular project folder) -> run command: `npm install`
+
+## How to run
+- run command: `npm start`
 
 ## Development server
 
