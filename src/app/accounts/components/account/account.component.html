@@ -1,0 +1,11 @@
+<div class="accounts__grid-column">{{ accountNumber }}</div>
+<div class="accounts__grid-column">{{ accountType }}</div>
+<div class="accounts__grid-column">ZAR {{ balance }}</div>
+<div class="accounts__grid-column">
+    <button 
+        class="account__withdraw-button"
+        [ngClass]="{ 'account__withdraw-button--disabled': !canWithdraw }"
+        (click)="withdraw()">
+        Withdraw
+    </button>
+</div>

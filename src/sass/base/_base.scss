@@ -1,9 +1,9 @@
 *, // universal selector, i.e. applied to all selectors
 *::before
 *::after { 
-      margin: 0;
-      padding: 0;
-      box-sizing: inherit; // this will inherit the parent’s value, which ultimately is the body
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; // this will inherit the parent’s value, which ultimately is the body
 }
 
 html { 
