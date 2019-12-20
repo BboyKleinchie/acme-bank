@@ -1,0 +1,35 @@
+.account__withdraw-button {
+    border-radius: 2px;
+    color: $colour-light-grey;
+    background-color: $colour-button-active;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transform: translateY(-7px);
+    border: solid .5px rgba($color: #000000, $alpha: 0.2);
+    height: 2.5rem;
+    padding: 0 1rem;
+
+    transition: all ease-in .1s;
+}
+
+.account__withdraw-button:hover {
+    transform: translate(2px, -9px);
+    box-shadow: 0px 2px 5px rgba($color: #000000, $alpha: 0.4);
+}
+
+.account__withdraw-button:active {
+    transform: translate(2px, -7px);
+    box-shadow: 0px 1px 8px rgba($color: #000000, $alpha: 0.4);
+}
+
+.account__withdraw-button--disabled {
+    color: $colour-dark-grey;
+    background-color: white;
+
+    transform: translateY(-7px);
+    box-shadow: unset;
+
+    pointer-events: none;
+}

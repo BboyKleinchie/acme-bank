@@ -1,3 +1,7 @@
 header {
     max-width: 100vw;
+    max-height: 5%;
+    padding: 1rem 1rem;
+    background-image: linear-gradient(to right, darken($colour-header-1, 10), darken($colour-header-2, 10));
+    color: $colour-light-grey;
 }

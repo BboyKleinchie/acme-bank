@@ -1,0 +1,22 @@
+// 
+// COLOURS
+//
+$colour-light-grey: #eee;
+$colour-dark-grey: lighten(#000, 40);
+$colour-header-1: red;
+$colour-header-2: purple;
+$colour-primary: darken($colour-header-1, 10);
+$colour-button-active: lighten(green, 15);
+
+//
+// Grid
+//
+$grid-columns: 4;
+$grid-vertical-gutter: 2rem;
+
+//
+// FONT
+//
+$font-large: 2rem;
+$font-medium: 1.6rem;
+$font-small: 1.2rem;

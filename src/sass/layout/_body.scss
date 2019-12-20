@@ -1,3 +1,6 @@
 body {
     box-sizing: border-box; //the width and height includes the padding and border and not just the content
+    height: 1000px;
+    background-color: $colour-light-grey;
+    margin: 0;
 }

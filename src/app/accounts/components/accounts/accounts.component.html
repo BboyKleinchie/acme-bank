@@ -1,0 +1,29 @@
+<div class="accounts">
+    <div class="accounts__header">
+        <h2 class="accounts__heading">Account List</h2>
+    </div>
+
+    <div class="accounts_grid-row">
+        <div class="accounts__grid-column accounts__grid-heading">Account Number</div>
+        <div class="accounts__grid-column accounts__grid-heading">Account Type</div>
+        <div class="accounts__grid-column accounts__grid-heading">Balance</div>
+    </div>
+
+    <div class="accounts__list">
+        <div
+            *ngFor='let account of accounts, index as i' 
+            class="accounts_grid-row accounts__account-item"
+            [ngClass]="{ 'accounts__account-item--offset': ((i % 2) == 0) }">
+            <account
+                [accountNumber]="account.account_number"
+                [accountType]="account.account_type"
+                [balance]="account.balance"></account>
+        </div
+        >
+    </div>
+
+    <div class="accounts_grid-row accounts__balance">
+        <div class="accounts__grid-column-2">Balance</div>
+        <div class="accounts__grid-column-2">ZAR {{ balance }}</div>
+    </div>
+</div>

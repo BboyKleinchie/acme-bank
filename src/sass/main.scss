@@ -20,10 +20,13 @@
 //
 // COMPONENTS
 //
+@import 'components/account';
+@import 'components/accounts';
 
 //
 // LAYOUT
 //
+@import 'layout/body';
 @import 'layout/footer';
 @import 'layout/header';
 
